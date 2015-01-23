@@ -3,8 +3,6 @@ layout: post
 title: Hello World
 date: 2015-01-23 15:02:51
 ---
-
-
 ##Helle World
 
 我是Neil, 是一名web前端工程师.
