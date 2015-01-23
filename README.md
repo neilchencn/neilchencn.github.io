@@ -1,2 +1,1 @@
-# neilchencn.github.io
-personal blog
+# neilchen.github.com

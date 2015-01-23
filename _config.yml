@@ -1,0 +1,16 @@
+title: Neil Chen's Blog
+description: "Neil Chen's blog"
+
+url: http://neilchencn.github.io/
+port: 3000
+highlighter: pygments
+
+permalink: /:year/:month/:day/:title.html
+markdown: redcarpet
+
+google_analytics: UA-58054092-1
+
+owner:
+  name: neilchencn
+  disqus_shortname: N.Chen
+  twitter: neilchen_CN
