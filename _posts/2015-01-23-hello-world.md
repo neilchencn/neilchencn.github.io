@@ -1,7 +1,13 @@
 ---
 layout: post
-title: Hello World
+title: "Hello World"
 date: 2015-01-23 15:02:51
+description: hello world
+headline:
+category: others
+tags: [hello world ]
+comments: true
+mathjax:
 ---
 ###Welcome to my tech blog!
 

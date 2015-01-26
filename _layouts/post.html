@@ -1,23 +1,22 @@
----
-layout: default
----
-<div class="content{% if page.photo_url %} photo-post{% endif %}">
-    <div class="post single">
-        {% unless page.photo_url %}
-        <h1>{{ page.title }}</h1>
-        <info datetime="{{ page.date | date: "%Y-%m-%d" }}">
-            {{ page.date | date: "%b %d, %Y" }}
-        </info>
-        {% endunless %}
-        <div class="body">{{ content }}</div>
-        <!-- <div class="breaker"></div> -->
-        <div class="breaker"></div>        
-    </div>  
-
-    <div class="comments container">
-        <div id="disqus_thread"></div>
-        <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-        <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-    </div>
-</div>
-
+<!doctype html>
+<html class="no-js" lang="en">
+{% include head.html %}
+{% if site.dropcap %}{% if page.dropcap != false %}<style type="text/css">@media only screen and (min-width:43.75em){.notepad-post-content div>p:first-child:first-letter{float: left; font-size: 4.875rem; line-height: 3.750rem; padding-top: 0.375rem; padding-right: 0.375rem; font-family:serif}}</style>{% endif %}{% endif %}
+<body class="post-template">
+{% if page.imagefeature %}{% include headerpostcover.html %}{% else %}{% include headerpostsimple.html %}{% endif %}
+    <article class="notepad-post-content post">
+        <div>
+            <div class="paddings">
+                {{ content }}
+            </div>
+        </div>
+    </article>
+    <div class="cf"></div>
+{% if site.share %}{% include share.html %}{% endif %}
+{% include author.html %}
+<div class="cf"></div>
+{% if site.disqus_shortname and page.comments == true %}{% include disqus.html %}{% endif %}
+{% include footer.html %}
+{% include scripts.html %}
+</body>
+</html>
