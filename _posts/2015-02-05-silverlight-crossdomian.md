@@ -2,6 +2,12 @@
 layout: post
 title: Web页面加载远程Silverlight app遇到的问题  
 date: 2015-02-05 16:32:51
+description: Web页面加载远程Silverlight app遇到的问题备忘
+headline:
+category: deployment
+tags: [silverlight crossdomain ]
+comments: true
+mathjax:
 ---
 ###概述
 
@@ -42,6 +48,8 @@ silverlight app在html页面中无法正常显示， 显示成一片空白，但
 
 
 这个属性在同域的情况下默认是true，但是在跨域的情况下默认为false。
+
+
 详情参考：[msnd doc 关于 enableHtmlAccess](https://msdn.microsoft.com/en-us/library/cc838264(VS.95).aspx)
 
 
