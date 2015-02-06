@@ -16,6 +16,9 @@ mathjax:
 
 ###问题描述
 
+webserver在服务器A上， silverlight app的xap包放在静态文件服务器B上。
+
+
 silverlight app在html页面中无法正常显示， 显示成一片空白，但是鼠标右键点击silverlight app的区域可以显示silverlight的环境时正常的。
 
 
