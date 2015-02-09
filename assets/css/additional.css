@@ -702,25 +702,25 @@ img.mfp-img {
 
 blockquote,blockquote p {
     padding: .25rem!important;
-    margin-top: 1rem!important;
-    margin-bottom: 2.1rem!important;
+    /*margin-top: 1rem!important;*/
+    /*margin-bottom: 2.1rem!important;*/
     font-style: italic!important;
-    font-size: 2.5rem!important;
+    font-size: 1.5rem!important;
     font-family: serif!important;
     line-height: 1.4!important;
     text-align: center!important;
-    max-width: 65.625rem!important;
+    max-width: 40.625rem!important;
 }
 
 blockquote {
     border-left: none!important;
 }
 
-@media only screen and (max-width:40.063em) {
+/*@media only screen and (max-width:40.063em) {
     blockquote,blockquote p {
         font-size: 2rem!important;
     }
-}
+}*/
 
 /*--------------------------------
  :: CodeHighlight
