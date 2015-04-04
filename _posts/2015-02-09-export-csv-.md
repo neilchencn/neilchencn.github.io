@@ -39,4 +39,4 @@ mathjax:
 ###小科普
 
 
-STLK文件是Microsoft Excel的数据导入格式文件，以SYLK文件格式保存的文件，文件后缀名为".slk"。
+SYLK文件是Microsoft Excel的数据导入格式文件，以SYLK文件格式保存的文件，文件后缀名为".slk"。
