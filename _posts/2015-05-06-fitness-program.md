@@ -4,7 +4,7 @@ title: "给自己制定的健身计划"
 date: 2015-05-06 16:34:00
 description: 减肥计划
 headline:
-category: other
+category: others
 tags: [ fitness sport hiit ]
 comments: true
 mathjax:
