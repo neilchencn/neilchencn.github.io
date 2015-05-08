@@ -85,15 +85,6 @@ mathjax:
 
 	foreman start web
 
-就可以在本地启动啦~ 调试完了再提交到heroku服务器上.
-
-
-修改代码后提交, 基本和github的操作模式一样哦. 
-
-
-另外heroku还提供使用第三方云服务的插件来用哦, 比如使用postgresql等.
-
-
-更多的内容可以从heroku的document里面学到哦, 等有空再深入的玩一下吧.
+就可以在本地启动啦~ 调试完了再提交到heroku服务器上.修改代码后提交, 基本和github的操作模式一样哦. 另外heroku还提供使用第三方云服务的插件来用哦,比如使用postgresql等更多的内容可以从heroku的document里面学到哦, 等有空再深入的玩一下吧.
 
 
