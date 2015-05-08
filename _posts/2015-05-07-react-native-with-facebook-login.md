@@ -34,9 +34,7 @@ mathjax:
 
 看到没，实际的key并不是"URL types",而是"CFBundleURLTypes". 
 
-
 改完保存后,在Xcode ui里面查看key显示为"URL types".坑爹吧~
-
 
 现在重新build一下，就可以正常login啦。
 
