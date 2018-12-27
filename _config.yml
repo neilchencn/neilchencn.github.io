@@ -1,38 +1,38 @@
-title:            Neil Chen's Blog
-description:      "Neil's Diary"
-locale:           en_US
-logo:             logo.png
+title: Neil Chen's Blog
+description: "Neil's Diary"
+locale: en_US
+logo: logo.png
 disqus_shortname: neilchen
-share:            true
-readtime:		  true
-wpm:			  200
-dropcap:		  true
-theme:			  blue
-nprogress:        true
-header_bg:        alleyway.jpg
-author_bg:		  newyork.jpg
+share: true
+readtime: true
+wpm: 200
+dropcap: true
+theme: blue
+nprogress: true
+header_bg: alleyway.jpg
+author_bg: newyork.jpg
 # Change url to your domain. Leave localhost server or blank when working locally.
 # or use the hint from http://jekyllrb.com/docs/github-pages/ to keep this the same
 # whether working locally or remotely. Start Jekyll with: jekyll serve --baseurl ''
-url:              https://neilchencn.github.io/
+url: https://neilchencn.github.io/
 
 # Owner/author information
 owner:
-  name:           Neil Chen
-  avatar:         neil.jpg
-  email:          neil.chen.nj@gmail.com
+  name: Neil Chen
+  avatar: neil.jpg
+  email: neil.chen.nj@gmail.com
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
-  description:    neilchen's blog
+  description: neilchen's blog
   # Social networking links used in footer. Update and remove as you like.
-  twitter:        neilchen_CN
+  twitter: neilchen_CN
   facebook:
-  github:         neilchencn
+  github: neilchencn
   instagram:
   # For Google Authorship https://plus.google.com/authorship
   google_plus:
 
 # Analytics and webmaster tools stuff goes here
-google_analytics:   UA-58054092-2
+google_analytics: UA-58054092-2
 google_verify:
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:
@@ -52,15 +52,15 @@ links:
     url: /about
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    Asia/Shanghai
-future:      true
-highlighter: pygments
-markdown:    kramdown
-paginate:    5
-paginate_path: "page:num"
+timezone: Asia/Shanghai
+future: true
+highlighter: rouge
+markdown: kramdown
+paginate: 5
+paginate_path: 'page:num'
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink:   /:categories/:title
+permalink: /:categories/:title
 
 kramdown:
   auto_ids: true
@@ -82,127 +82,146 @@ prose:
   media: 'images/post'
   metadata:
     _posts:
-      - name: "published"
+      - name: 'published'
         field:
-          label: "Published"
-          element: "checkbox"
-          value: "true"
-      - name: "layout"
+          label: 'Published'
+          element: 'checkbox'
+          value: 'true'
+      - name: 'layout'
         field:
-          element: "hidden"
-          label: "Layout"
-          value: "post"
-      - name: "title"
+          element: 'hidden'
+          label: 'Layout'
+          value: 'post'
+      - name: 'title'
         field:
-          label: "Title"
-          element: "text"
-          value: "An Awesome Headline!"
-      - name: "description"
+          label: 'Title'
+          element: 'text'
+          value: 'An Awesome Headline!'
+      - name: 'description'
         field:
-          element: "text"
-          label: "Description"
-          placeholder: "Enter Post Description"
-      - name: "modified"
+          element: 'text'
+          label: 'Description'
+          placeholder: 'Enter Post Description'
+      - name: 'modified'
         field:
-          element: "text"
-          label: "Has this page been modified?"
-          placeholder: "YYYY-MM-DD"
-      - name: "categories"
+          element: 'text'
+          label: 'Has this page been modified?'
+          placeholder: 'YYYY-MM-DD'
+      - name: 'categories'
         field:
-          element: "multiselect"
-          label: "Add categories"
-          placeholder: "Choose categories"
+          element: 'multiselect'
+          label: 'Add categories'
+          placeholder: 'Choose categories'
           value: personal
           options:
-            - name: "Personal"
+            - name: 'Personal'
               value: personal
-            - name: "Engineering"
+            - name: 'Engineering'
               value: engineering
-            - name: "Mathematics"
+            - name: 'Mathematics'
               value: mathematics
-            - name: "Physics"
+            - name: 'Physics'
               value: physics
-            - name: "Psychology"
+            - name: 'Psychology'
               value: psychology
-            - name: "Photography"
+            - name: 'Photography'
               value: photography
-            - name: "Interesting"
+            - name: 'Interesting'
               value: interesting
-            - name: "Web-Development"
+            - name: 'Web-Development'
               value: webdevelopment
           alterable: true
-      - name: "tags"
+      - name: 'tags'
         field:
-          element: "text"
-          label: "Tags"
-          placeholder: "Enter tags, separated by spaces"
-      - name: "imagefeature"
+          element: 'text'
+          label: 'Tags'
+          placeholder: 'Enter tags, separated by spaces'
+      - name: 'imagefeature'
         field:
-          element: "text"
-          label: "Featured Image"
-          placeholder: "somefile.jpg"
-      - name: "covereffect"
+          element: 'text'
+          label: 'Featured Image'
+          placeholder: 'somefile.jpg'
+      - name: 'covereffect'
         field:
-          element: "select"
-          label: "Select Cover Effect"
-          placeholder: "Choose Type"
+          element: 'select'
+          label: 'Select Cover Effect'
+          placeholder: 'Choose Type'
           value:
           options:
-            - name: "None"
+            - name: 'None'
               value:
-            - name: "slice"
+            - name: 'slice'
               value: slice
-            - name: "push"
+            - name: 'push'
               value: push
-      - name: "location"
+      - name: 'location'
         field:
-          element: "text"
-          label: "Location"
-          placeholder: "Some Place"
-      - name: "locationgps"
+          element: 'text'
+          label: 'Location'
+          placeholder: 'Some Place'
+      - name: 'locationgps'
         field:
-          element: "text"
-          label: "Location GPS point"
-          placeholder: "long, lat"
-      - name: "mathjax"
+          element: 'text'
+          label: 'Location GPS point'
+          placeholder: 'long, lat'
+      - name: 'mathjax'
         field:
-          element: "checkbox"
-          label: "MathJax"
+          element: 'checkbox'
+          label: 'MathJax'
           value: false
-      - name: "featured"
+      - name: 'featured'
         field:
-          element: "checkbox"
-          label: "Featured?"
+          element: 'checkbox'
+          label: 'Featured?'
           value: false
-      - name: "comments"
+      - name: 'comments'
         field:
-          element: "checkbox"
-          label: "Comments"
+          element: 'checkbox'
+          label: 'Comments'
           value: false
-      - name: "chart"
+      - name: 'chart'
         field:
-          element: "checkbox"
-          label: "Chart?"
+          element: 'checkbox'
+          label: 'Chart?'
           value: false
-      - name: "charttype"
+      - name: 'charttype'
         field:
-          element: "select"
-          label: "Select Chart Type"
-          placeholder: "Choose Type"
+          element: 'select'
+          label: 'Select Chart Type'
+          placeholder: 'Choose Type'
           value:
           options:
-            - name: "None"
+            - name: 'None'
               value:
-            - name: "pie"
+            - name: 'pie'
               value: pie
-            - name: "serial"
+            - name: 'serial'
               value: serial
-      - name: "jquery"
+      - name: 'jquery'
         field:
-          element: "checkbox"
-          label: "Require JQuery?"
+          element: 'checkbox'
+          label: 'Require JQuery?'
           value: false
 
-
-include: [".htaccess"]
-exclude: ["lib", "config.rb", "Gemfile", "Capfile", "Gemfile.lock", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
+include: ['.htaccess']
+exclude:
+  [
+    'lib',
+    'config.rb',
+    'Gemfile',
+    'Capfile',
+    'Gemfile.lock',
+    'config',
+    'log',
+    'Rakefile',
+    'Rakefile.rb',
+    'tmp',
+    'less',
+    '*.sublime-project',
+    '*.sublime-workspace',
+    'test',
+    'spec',
+    'Gruntfile.js',
+    'package.json',
+    'node_modules',
+  ]
