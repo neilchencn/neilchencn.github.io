@@ -13,18 +13,18 @@
 {% capture canonical %}{{ site.url }}{% if site.permalink contains '.html' %}{{ page.url }}{% else %}{{ page.url | remove:'index.html' | strip_slash }}{% endif %}{% endcapture %}
 <link rel="canonical" href="{{ canonical }}">
 <link href="{{ site.url }}/feed.xml" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
-{% if site.owner.google_plus %}<link rel="author" href="http://plus.google.com/{{ site.owner.google_plus }}?rel=author">{% endif %}
+{% if site.owner.google_plus %}<link rel="author" href="https://plus.google.com/{{ site.owner.google_plus }}?rel=author">{% endif %}
 
-<!-- http://t.co/dKP3o1e -->
+<!-- https://t.co/dKP3o1e -->
 <meta name="HandheldFriendly" content="True">
 <meta name="MobileOptimized" content="320">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <!-- Webfonts -->
-<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700&amp;subset=latin,latin-ext' rel='stylesheet'>
-<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800,600&amp;subset=latin,latin-ext' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700&amp;subset=latin,latin-ext' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800,600&amp;subset=latin,latin-ext' rel='stylesheet'>
 <!-- For all browsers -->
-<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="{{ site.url }}/assets/css/vendor/normalize.css">
 <link rel="stylesheet" href="{{ site.url }}/assets/css/vendor/foundation.min.css">
 <link rel="stylesheet" href="{{ site.url }}/assets/css/style.css">
@@ -39,11 +39,11 @@
 <script>/*<![CDATA[*/window.jQuery||document.write('<script src="{{ site.url }}/assets/js/vendor/jquery-1.11.1.min.js"><\/script>');/*]]>*/</script>{% endif %}
 {% if page.chart %}
 <script type="text/javascript" src="{{ site.url }}/assets/js/vendor/amcharts.js"></script>
-{% if page.charttype == 'pie' %}<script type="text/javascript" src="http://cdn.amcharts.com/lib/3/pie.js"></script>{% endif %}
-{% if page.charttype == 'serial' %}<script type="text/javascript" src="http://cdn.amcharts.com/lib/3/serial.js"></script>{% endif %}
+{% if page.charttype == 'pie' %}<script type="text/javascript" src="https://cdn.amcharts.com/lib/3/pie.js"></script>{% endif %}
+{% if page.charttype == 'serial' %}<script type="text/javascript" src="https://cdn.amcharts.com/lib/3/serial.js"></script>{% endif %}
 {% endif %}
 {% if page.mathjax %}
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 <script>MathJax.Hub.Config({config:["MMLorHTML.js"],extensions:["tex2jax.js","TeX/AMSmath.js","TeX/AMSsymbols.js"],jax:["input/TeX"],tex2jax:{inlineMath:[["$","$"],["\\(","\\)"]],displayMath:[["$$","$$"],["\\[","\\]"]],processEscapes:false},TeX:{TagSide:"right",TagIndent:".8em",MultLineWidth:"85%",equationNumbers:{autoNumber:"AMS",},unicode:{fonts:"STIXGeneral,'Arial Unicode MS'"}},showProcessingMessages:false});</script>{% endif %}
 <!-- Battle For the Net -->
 <script type="text/javascript">

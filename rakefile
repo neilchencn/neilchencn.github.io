@@ -13,11 +13,11 @@ end
 
     desc 'Sets the configuration for production mode.'
     task :pro do
-      edit_config 'url', 'http://neilchencn.github.io'
+      edit_config 'url', 'https://neilchencn.github.io'
     end
-  end 
+  end
 
-  # adapted from https://github.com/imathis/octopress/blob/master/Rakefile   
+  # adapted from https://github.com/imathis/octopress/blob/master/Rakefile
   # usage rake new_post['My New Post'] or rake new_post (defaults to "My New Post")
   desc "Start a new post"
   task :new, :title do |t, args|
@@ -47,7 +47,7 @@ end
    end
   end
 
-  # adapted from https://github.com/imathis/octopress/blob/master/Rakefile   
+  # adapted from https://github.com/imathis/octopress/blob/master/Rakefile
   # usage rake new_post['My New Post'] or rake new_post (defaults to "My New Post")
   desc "Start a new page"
   task :newpage, :title do |t, args|

@@ -1,12 +1,12 @@
 {% if page.chart or page.jquery %}{% else %}<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script>/*<![CDATA[*/window.jQuery||document.write('<script src="{{ site.url }}/assets/js/vendor/jquery-1.11.1.min.js"><\/script>');/*]]>*/</script>{% endif %}
-	
+
 <script>var twitterAccount="neilchen_CN";</script>
 <div class="shareTooltip" id="shareTooltip">
 <div class="tooltipContainer"><a id="sendToTwitter" href="" class="sharingLink twitter"><span></span></a></div>
 </div>
-<script>!function(f,a,g){var e,b=f.getElementsByTagName(a)[0],c=/^http:/.test(f.location)?"http":"https";if(!f.getElementById(g)){e=f.createElement(a);e.id=g;e.src=c+":/assets/js/vendor/twitter.js";b.parentNode.insertBefore(e,b)}}(document,"script","twitter-wjs");</script>
-    
+<script>!function(f,a,g){var e,b=f.getElementsByTagName(a)[0],c=/^https:/.test(f.location)?"https":"https";if(!f.getElementById(g)){e=f.createElement(a);e.id=g;e.src=c+":/assets/js/vendor/twitter.js";b.parentNode.insertBefore(e,b)}}(document,"script","twitter-wjs");</script>
+
     <script src="{{ site.url }}/assets/js/vendor/fastclick.js"></script>
     <script src="{{ site.url }}/assets/js/vendor/foundation.min.js"></script>
     {% if page.imagefeature %}<script src="{{ site.url }}/assets/js/vendor/background-check.js"></script>

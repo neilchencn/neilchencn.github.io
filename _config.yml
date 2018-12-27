@@ -12,9 +12,9 @@ nprogress:        true
 header_bg:        alleyway.jpg
 author_bg:		  newyork.jpg
 # Change url to your domain. Leave localhost server or blank when working locally.
-# or use the hint from http://jekyllrb.com/docs/github-pages/ to keep this the same 
+# or use the hint from http://jekyllrb.com/docs/github-pages/ to keep this the same
 # whether working locally or remotely. Start Jekyll with: jekyll serve --baseurl ''
-url:              http://neilchencn.github.io/
+url:              https://neilchencn.github.io/
 
 # Owner/author information
 owner:
@@ -35,7 +35,7 @@ owner:
 google_analytics:   UA-58054092-2
 google_verify:
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:         
+bing_verify:
 
 # Links to include in footer navigation
 # For external links add external: true
@@ -70,15 +70,15 @@ kramdown:
   use_coderay: false
 
   coderay:
-    coderay_line_numbers: 
+    coderay_line_numbers:
     coderay_line_numbers_start: 1
     coderay_tab_width: 4
     coderay_bold_every: 10
     coderay_css: class
 
 prose:
-  siteurl: 'http://neilchencn.github.io/'
-  relativeLinks: 'http://neilchencn.github.io/links.jsonp'
+  siteurl: 's://neilchencn.github.io/'
+  relativeLinks: 'https://neilchencn.github.io/links.jsonp'
   media: 'images/post'
   metadata:
     _posts:
@@ -149,7 +149,7 @@ prose:
           value:
           options:
             - name: "None"
-              value: 
+              value:
             - name: "slice"
               value: slice
             - name: "push"
@@ -192,7 +192,7 @@ prose:
           value:
           options:
             - name: "None"
-              value: 
+              value:
             - name: "pie"
               value: pie
             - name: "serial"
