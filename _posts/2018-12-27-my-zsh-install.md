@@ -7,7 +7,6 @@ headline:
 category: others
 tags: [zsh MacOS iTerm2]
 comments: true
-imagefeature: true
 mathjax:
 ---
 
