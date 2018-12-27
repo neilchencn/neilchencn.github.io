@@ -46,4 +46,4 @@ mathjax:
 
 ###9.my zsh style
 
-![My zsh screenshot](images/post/pic.png)
+![My zsh screenshot](/images/post/pic.png)
